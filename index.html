@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i&display=swap&subset=latin-ext"
+		rel="stylesheet" type='text/css'>
+	<meta charset="utf-8" />
+	<title>przecietnyjanusz</title>
+	<meta name="description" content="Strony HTML!" />
+	<meta name="keywords" content="strona www" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="author" content="przecietnyjanusz" />
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<div id="logo">
+				<img src="pic1.png" width="50px" height="60px">
+				<span style="color: #33cc33">&ensp;przecietny</span>janusz
+			</div>
+		</div>
+
+	</div>
+	<div class="nav">
+		<ol>
+			<li>
+				<a href="#">Strona główna</a>
+			</li>
+			<li>
+				<a href="#">Bot Discord!</a>
+			</li>
+			<li>
+				<a href="#">Serwer Minecraft!</a>
+				<ul>
+					<li>
+						<a href="#">Sklep!</a>
+					</li>
+					<li>
+						<a href="#">Przydatne informacje</a>
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+
+	</div>
+	<div id="content">
+		<div id="1"><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper gravida. In dignissim
+			elit nec dolor fringilla, non pulvinar mi sodales. Etiam tempus elit sed auctor tincidunt. Aliquam id ante
+			interdum, dictum ex blandit, hendrerit metus. Morbi a felis semper, euismod elit vel, luctus turpis. Lorem
+			ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a diam convallis, porttitor quam vestibulum,
+			interdum massa. Proin vehicula sollicitudin tortor placerat pretium. Nullam venenatis porta vehicula.
+			Vivamus eu libero nec risus congue rhoncus at sed mauris. In hac habitasse platea dictumst. Nam iaculis
+			fermentum lectus et dignissim. Ut aliquet ante at tempus aliquet. Integer et massa suscipit, varius neque
+			id, viverra sem. Aenean lobortis ipsum justo, et lobortis orci congue vel. Fusce auctor eros neque, nec
+			faucibus sapien mollis elementum. </p></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper gravida. In dignissim
+			elit nec dolor fringilla, non pulvinar mi sodales. Etiam tempus elit sed auctor tincidunt. Aliquam id ante
+			interdum, dictum ex blandit, hendrerit metus. Morbi a felis semper, euismod elit vel, luctus turpis. Lorem
+			ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a diam convallis, porttitor quam vestibulum,
+			interdum massa. Proin vehicula sollicitudin tortor placerat pretium. Nullam venenatis porta vehicula.
+			Vivamus eu libero nec risus congue rhoncus at sed mauris. In hac habitasse platea dictumst. Nam iaculis
+			fermentum lectus et dignissim. Ut aliquet ante at tempus aliquet. Integer et massa suscipit, varius neque
+			id, viverra sem. Aenean lobortis ipsum justo, et lobortis orci congue vel. Fusce auctor eros neque, nec
+			faucibus sapien mollis elementum. </p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper gravida. In dignissim
+			elit nec dolor fringilla, non pulvinar mi sodales. Etiam tempus elit sed auctor tincidunt. Aliquam id ante
+			interdum, dictum ex blandit, hendrerit metus. Morbi a felis semper, euismod elit vel, luctus turpis. Lorem
+			ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a diam convallis, porttitor quam vestibulum,
+			interdum massa. Proin vehicula sollicitudin tortor placerat pretium. Nullam venenatis porta vehicula.
+			Vivamus eu libero nec risus congue rhoncus at sed mauris. In hac habitasse platea dictumst. Nam iaculis
+			fermentum lectus et dignissim. Ut aliquet ante at tempus aliquet. Integer et massa suscipit, varius neque
+			id, viverra sem. Aenean lobortis ipsum justo, et lobortis orci congue vel. Fusce auctor eros neque, nec
+			faucibus sapien mollis elementum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor ullamcorper gravida. In dignissim
+			elit nec dolor fringilla, non pulvinar mi sodales. Etiam tempus elit sed auctor tincidunt. Aliquam id ante
+			interdum, dictum ex blandit, hendrerit metus. Morbi a felis semper, euismod elit vel, luctus turpis. Lorem
+			ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a diam convallis, porttitor quam vestibulum,
+			interdum massa. Proin vehicula sollicitudin tortor placerat pretium. Nullam venenatis porta vehicula.
+			Vivamus eu libero nec risus congue rhoncus at sed mauris. In hac habitasse platea dictumst. Nam iaculis
+			fermentum lectus et dignissim. Ut aliquet ante at tempus aliquet. Integer et massa suscipit, varius neque
+			id, viverra sem. Aenean lobortis ipsum justo, et lobortis orci congue vel. Fusce auctor eros neque, nec
+			faucibus sapien mollis elementum.</p>
+	</div>
+	<div id="socials">
+		<div id="socialdivs">
+			<div id="fb"><i class="icon-facebook-squared"></i></div>
+			<div id="github"><i class="icon-github-squared"></i></div>
+			<div id="tw"><i class="icon-twitter-squared"></i></div>
+			<div id="reddit"><i class="icon-reddit-squared"></i></div>
+			<div style="clear: both;"></div>
+		</div>
+	</div>
+	<div id="footer">przecietnyjanusz.com &copy; 2019 </div>
+	</div>
+
+	<script src="jquery-3.4.1.min.js"> </script>
+	<script>
+
+		$(document).ready(function () {
+			var NavY = $('.nav').offset().top;
+
+			var stickyNav = function () {
+				var ScrollY = $(window).scrollTop();
+
+				if (ScrollY > NavY) {
+					$('.nav').addClass('sticky');
+				} else {
+					$('.nav').removeClass('sticky');
+				}
+			};
+
+			stickyNav();
+
+			$(window).scroll(function () {
+				stickyNav();
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>
